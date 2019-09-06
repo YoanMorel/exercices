@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice8</title>
+    <link rel="stylesheet" type="text/css" href="exercice.css" />
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label for="civility">Civilité : </label>
+          <select id="civility" name="civ">
+            <option value="">-- Choisissez une option --</option>
+            <option value="mister">Monsieur</option>
+            <option value="madame">Madame</option>
+            <option value="none">Non Binaire</option>
+          </select>
+          <label for="lname">Nom : </label>
+          <input type="text" id="lname" placeholder="Nom" />
+          <label for="fname">Prénom : </label>
+          <input type="text" id="fname" placeholder="Prenom" />
+          <label for="birth">Date de naissance : </label>
+          <input type="date" id="birth" name="birth" />
+          <label for="telnb">Numéro de téléphone : </label>
+          <input type="tel" id="telnb" placeholder="Numéro de téléphone" />
+          <label for="street">Adresse : </label>
+          <div class="layout">
+            <input type="text" name="way" id="street" placeholder="Voie" />
+            <input type="text" name="street" id="street" placeholder="Nom de la voie" />
+          </div>
+          <label for="postcode">Code postal : </label>
+          <input type="text" id="postcode" placeholder="CP" />
+          <label for="city">Ville : </label>
+          <input type="text" id="city" placeholder="Ville" />
+          <label for="nickname">Identifiant : </label>
+          <input type="text" id="nickname" placeholder="Identifiant" />
+          <label for="password">Mot de passe : </label>
+          <div class="layout">
+            <input type="password" id="password" name="password" />
+            <input type="password" id="password" name="checkpassword" />
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Compétences</legend>
+        <div class="layoutRadio">
+          <p>Votre niveau</p>
+          <input type="radio" id="noob" name="level" />
+          <label for="noob">Débutant</label>
+          <input type="radio" id="middle" name="level" />
+          <label for="middle">Junior</label>
+          <input type="radio" id="expert" name="level" />
+          <label for="expert">Expert</label>
+        </div>
+        <div class="layoutRadio">
+          <p>Les langages maitrisés</p>
+          <input type="checkbox" name="lang" value="" />
+          <label for="ruby">Ruby</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="python">Python</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="php">PHP</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="java">JAVA</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="nodejs">NodeJS</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="reactjs">ReactJS</label>
+          <input type="checkbox" name="lang" value="" />
+          <label for="c#">C#</label>
+          <input type="checkbox" name="lang" value="" />
+        </div>
+        <label class="layoutOS" for="os">OS utilisé</label>
+        <select id="os" name="os">
+          <optgroup label="Windows">
+            <option value="w10">10</option>
+            <option value="w8">8</option>
+            <option value="w7">7</option>
+          </optgroup>
+          <optgroup label="Linux">
+            <option value="ubuntu">Ubuntu</option>
+            <option value="debian">Debian</option>
+          </optgroup>
+          <optgroup label="Autre">
+            <option value="macos">MacOS</option>
+            <option value="chromeos">ChromeOS</option>
+            <option value="other">Autre</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>La formation</legend>
+        <label for="start">Début de formation : </label>
+        <input type="date" id="start" name="" value="" />
+        <label for="urlgithub">URL Github</label>
+        <input type="url" id="urlgithub" name="" value="" placeholder="URL Github" />
+        <label for="com">Dis-moi tout</label>
+        <textarea id="com" name="name"></textarea>
+      </fieldset>
+      <input type="submit" name="Envoyer" value="Envoyer">
+    </form>
+  </body>
+</html>

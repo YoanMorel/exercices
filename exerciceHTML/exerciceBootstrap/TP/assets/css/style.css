@@ -1,0 +1,60 @@
+@media (max-width: 650px) {
+  body {
+    font-size: 4vw;
+  }
+
+  img.imgProfil {
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    top: 0.5rem;
+    border: solid 4px #69718D;
+  }
+}
+
+body {
+  background-color: #262C40;
+  height: 100vh;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: #F95138; /* OGRE ODOR */
+}
+
+.imgProfil {
+  border-radius: 50%;
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  top: 0.5rem;
+  border: solid 4px #69718D; /* SLATE GRAY */
+}
+
+.bgNav {
+  background-color: #262C40;
+  color: #69718D; /* YANKEES BLUE */
+}
+
+.bgContent {
+  background-color: #D3D5D4; /* LIGHT GRAY */
+}
+
+.bgHead {
+  background-color: #AAC0AF; /* CAMBRIDGE LIGHT */
+  border: solid 2px #9D8CA1; /* SPANISH GRAY */
+  border-radius: 50%;
+}
+
+.hNav, p.hNav + div {
+  height: 8px;
+}
+
+.mx-6 {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}

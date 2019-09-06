@@ -1,0 +1,30 @@
+input, select, textarea {
+  display: block;
+  width: 200px;
+  margin-left: 15%;
+}
+
+label {
+  float: left;
+  margin-top: 4px;
+}
+
+div input {
+  display: inline;
+  margin-left: 0;
+}
+
+.layout {
+  margin-left: 15%;
+}
+
+.layoutRadio input {
+  display: inline;
+  width: 0px;
+  margin-left: 0;
+}
+
+.layoutRadio label {
+  float: none;
+  margin-top: 0;
+}

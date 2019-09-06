@@ -1,0 +1,28 @@
+/* exercice9 */
+
+@media screen and (max-width: 800px) {
+  div {
+    background-color: red;
+  }
+  .green, .orange {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  div {
+    background-color: orange;
+  }
+  .green, .red {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  div {
+    background-color: green;
+  }
+  .orange, .red {
+    display: none;
+  }
+}

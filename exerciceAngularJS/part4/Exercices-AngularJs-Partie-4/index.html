@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>part4</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <!-- <div ng-app>
+    <button ng-click="counter = counter - 1" ng-init="counter=0">
+      -
+    </button>
+    <button ng-click="counter = counter + 1" ng-init="counter=0">
+      +
+    </button>
+    <span>{{ counter }}</span>
+  </div> -->
+
+  <!-- <div ng-app="cars" ng-controller="carsCtrl">
+    <ul>
+      <li ng-repeat="car in myCars | filter : '!verte'">
+        {{ car.marque + ', ' + car.couleur }}
+      </li>
+    </ul>
+  </div> -->
+
+  <div ng-app="myDisplay" ng-controller="displayCtrl">
+    <button ng-click="showFirstText()">Premier</button>
+    <button ng-click="showSecondText()">Second</button>
+
+    <p ng-show="displayFirstText">COUCOULorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.</p>
+
+    <p ng-show="displaySecondText">CUICUILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+      laborum.</p>
+  </div>
+</body>
+
+</html>

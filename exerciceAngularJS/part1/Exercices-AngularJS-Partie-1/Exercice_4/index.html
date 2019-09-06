@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 4</title>
+</head>
+<body>
+  <div class="sum" ng-app="calcul-app">
+    <h1>AngularJS</h1>
+    <div>
+      Le code "220 + 304 = {{220+304}}" sera interprété par AngularJS et donnera :
+    </div>
+    <div ng-controller="calcul-ctrl">
+      220 + 304 = {{ sumCalc }}
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

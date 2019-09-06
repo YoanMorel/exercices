@@ -1,0 +1,3 @@
+$(function(){
+  $('#thirdText').addClass('hide');
+});

@@ -1,0 +1,6 @@
+table, thead, tbody, th, td, tr, tfoot {
+border: 1px solid black;
+border-collapse: collapse;}
+
+#center {
+text-align: center;}

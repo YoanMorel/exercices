@@ -1,0 +1,7 @@
+1. CREATE DATABASE languages;
+2. CREATE DATABASE webDevelopment CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+3. CREATE DATABASE IF NOT EXISTS frameworks;
+4. CREATE DATABASE IF NOT EXISTS languages;
+5. DROP DATABASE languages;
+6. DROP DATABASE IF EXISTS frameworks;
+7. DROP DATABASE IF EXISTS languages;

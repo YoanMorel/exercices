@@ -1,0 +1,1 @@
+$('ul').css({color : 'red'})
